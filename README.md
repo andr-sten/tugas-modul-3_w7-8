@@ -1,16 +1,35 @@
-# tugas_modul3_w78
+# 📰 MediaJournal  
+**Nama:** Andrean Syah Putra  
+**NIM:** STI202303719  
+**Proyek:** MediaJournal  
+**Modul W7-8 – Flutter: Widget Lanjutan, File I/O, Kamera & Video**
 
-A new Flutter project.
+---
 
-## Getting Started
+## 1. 📝 Mode Catatan (File I/O + ListView.builder)
+Menampilkan kolom input teks untuk menulis catatan, tombol **Simpan/Muat**, dan daftar catatan yang muncul otomatis di bawah menggunakan `ListView.builder`.
 
-This project is a starting point for a Flutter application.
+📷 **Tampilan:**
+![Mode Catatan](asset/image/mode_catatan.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 2. 📸 Mode Kamera (Image Picker + AnimatedSwitcher)
+Menampilkan tampilan kamera dan galeri dengan dua tombol pilihan.  
+Gambar yang diambil atau dipilih akan muncul dengan efek transisi halus menggunakan `AnimatedSwitcher`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📷 **Tampilan:**
+![Mode Kamera](asset/image/mode_kamera.jpg)
+
+---
+
+## 3. 🎥 Mode Video (Video Player)
+Menampilkan video dari URL dengan tombol **Play/Pause** di bawahnya.  
+Mendukung streaming dari jaringan dengan koneksi internet aktif.
+
+📷 **Tampilan:**
+![Mode Video](asset/image/mode_video.jpg)
+
+---
+
+### 📂 Struktur Folder Aset
